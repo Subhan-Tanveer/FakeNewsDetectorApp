@@ -4,8 +4,8 @@ import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Load the model and vectorizer
-model_path = 'D:/AI Classification Projects/Fake News Detector Model\/fake-news/trained_news_model.sav'  # Update with your path
-vectorizer_path = 'D:/AI Classification Projects/Fake News Detector Model/fake-news/vectorizer.pkl'  # Update with your path
+model_path = 'trained_news_model.sav'  # Update with your path
+vectorizer_path = 'vectorizer.pkl'  # Update with your path
 
 loaded_model = pickle.load(open(model_path, 'rb'))
 vectorizer = pickle.load(open(vectorizer_path, 'rb'))
